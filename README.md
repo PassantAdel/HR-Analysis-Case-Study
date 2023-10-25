@@ -34,17 +34,17 @@ Ensure that you have the following packages installed:
 The models were evaluated using training and testing accuracy metrics, and the classification reports were generated for each model. Below are the results obtained:
 
 * Logistic Regression:
-** Training Accuracy: 0.916
-** Testing Accuracy: 0.914
+   * Training Accuracy: 0.916
+   * Testing Accuracy: 0.914
 
 * K-Nearest Neighbors (KNN):
-Training Accuracy: 0.926
-Testing Accuracy: 0.915
+   * Training Accuracy: 0.926
+   * Testing Accuracy: 0.915
 
 * Decision Tree:
-** Training Accuracy: 0.945
-** Testing Accuracy: 0.903
+  * Training Accuracy: 0.945
+  * Testing Accuracy: 0.903
   
 * Support Vector Machine (SVM):
-** Training Accuracy: 0.915
-** Testing Accuracy: 0.914
+  * Training Accuracy: 0.915
+  * Testing Accuracy: 0.914
