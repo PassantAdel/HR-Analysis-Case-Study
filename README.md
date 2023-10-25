@@ -4,22 +4,47 @@ This project is focused on building and evaluating several classification models
 # Dataset
 This is the HR datasets. In our dataset 50000 rows and 14 columns. Every year, around 5% of its employees have promoted in the company. so, we have the check employee is promoted or not?
 
+# Data Description
+The project utilizes the following datasets:
+*train.csv - the training dataset
+*test.csv - the testing dataset
+
 # Installation
 Ensure that you have the following packages installed:
-
 * pandas
 * seaborn
 * matplotlib
 * scikit-learn
 
-# How it Works
-1. Data Collection: We collected a diverse dataset of vehicles, including different types, colors, damage statuses, speeds, and license plate variations.
-2. Data Preprocessing: The dataset underwent preprocessing to ensure high-quality training data.
-3. Training: We trained the YOLOv8 model using the preprocessed dataset.
-4. Real-time Inference: The trained model is integrated into our system to perform real-time attribute recognition.
-5. User Interface: The user interacts with the system through an easy-to-use interface, providing images or video feeds for analysis.
-6. Display Results: The system displays the recognized attributes for each detected vehicle, providing valuable information to the user.
+# Data Preprocessing
+* Handling missing values by imputing the most frequent values and mean values for specific columns.
+* Converting categorical variables to numerical values.
 
-# Installation
-* Clone this repository: git clone https://github.com/PassantAdel/Vehicle-Attributes-Identification.git
-* Install the required dependencies: pip install -r requirements.txt
+# Exploratory Data Analysis
+* Analyzing the data distribution using histograms.
+* Visualizing the count of promotions with respect to gender, department, and education.
+
+# Models Implemented
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Decision Tree
+* Support Vector Machine (SVM)
+
+# Results
+The models were evaluated using training and testing accuracy metrics, and the classification reports were generated for each model. Below are the results obtained:
+
+* Logistic Regression:
+** Training Accuracy: 0.916
+** Testing Accuracy: 0.914
+
+* K-Nearest Neighbors (KNN):
+Training Accuracy: 0.926
+Testing Accuracy: 0.915
+
+* Decision Tree:
+** Training Accuracy: 0.945
+** Testing Accuracy: 0.903
+  
+* Support Vector Machine (SVM):
+** Training Accuracy: 0.915
+** Testing Accuracy: 0.914
